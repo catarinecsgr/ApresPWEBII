@@ -1,0 +1,158 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+
+}
+
+
+.container{
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(to right bottom, #f0caad, #f4c3ad, #f8bdb0, #f9b7b5, #f7b2bc, #eca8bb, #e09fbb, #d297bb, #bb87b1, #a278a7, #896a9c, #6f5d91);
+
+}
+
+
+.cardContainer{
+  background-color: #ffe6f0;
+  width: 75vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+
+
+}
+.cardContainer2{
+  height: 90vh;
+  background-color: #ffe6f0;
+  width: 75vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 1%;
+  border: 0.5 solid #ffe6f0;
+  border-radius: 2%;
+
+}
+
+.headerEu{
+  width: 75vw;
+  height: 20vh;
+  margin-bottom: 1vw;
+  display: flex;
+  float: left;
+
+}
+
+.foto{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.fotoPerfil{
+  border-radius: 1000%; /*arredonda as bordas da imagem / dependendo da %, fica redondo*/
+}
+
+.nome{
+  display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nome-label{
+  font-size: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divInfo{
+  background-color: #ffe6f0;
+  width: 75vw;
+  height: 68vh;
+ }
+
+.icone{
+  width: 50px;
+}
+
+.link-a{
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#link1{
+  margin-right: 50px;
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+  margin-left: 20px;
+
+
+}
+
+li{
+  font-size: 36px;
+
+}
+
+span{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.frase{
+  margin-top: 100px;
+
+}
+
+.links{
+  margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#frase-hwk{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  margin-left: 10px;
+}
+
+.linl-label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,80 +1,50 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<style>
-  :host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
-    color: #333;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  html{
-    width: 100vw !important;
-    height: 100vh !important;
-    margin: 0;
-  }
-  body{
-    margin: 0 !important;
-  }
-
-  .container{
-    width: 100vw;
-    height: 100vh;
-    display: inline-flex;
-    margin: 0;
-    background: rgb(240,202,173);
-    background: linear-gradient(142deg, rgba(240,202,173,1) 0%, rgba(240,173,200,1) 30%, rgba(111,93,145,1) 92%);
-    align-items: center;
-    justify-content: center;
-  }
-
-  .cardContainer{
-    background-color: aqua;
-    width: 75vw;
-    height: 90vh;
-    margin: 5%;
-    padding: 1vw;
-  }
-  .headerEu{
-    background-color: brown;
-    width: 75vw;
-    height: 20vh;
-    margin-bottom: 1vw;
-  }
-  .divInfo{
-    background-color: blueviolet;
-    width: 75vw;
-    height: 68vh;
-  }
-
-</style>
-
 <!-- Toolbar -->
+
+
 <div class="container">
   <div class="cardContainer">
-    <header class="headerEu">
-    </header>
-
+    <div class="headerEu">
+      <div class="foto">
+        <img class="fotoPerfil" src="../assets/img/perfil.png" alt="Foto de perfil">
+      </div>
+      <div class="nome">
+        <label class="nome-label">
+          Catarine Casagrandi
+        </label>
+      </div>
+    </div>
+  </div>
+<div class="cardContainer2">
     <div class="divInfo">
+      <div class="descricao">
+        <ul>
+          <li><span>Curso</span>: Técnico em Desenvolvimento de Sistemas.</li><br><br>
+          <li><span>Objetivo profissional</span>: Ingressar na área e migrar para UX/UI.</li><br><br>
+          <li><span>Hobbies</span>: Pintura, música, fotografia e nado.</li>
+        </ul>
+      </div>
+      <div class="links">
+        <div id="link1" classe="link-label">
+          <img class="icone" src="../assets/img/linkedin.png" alt=""><a class="link-a" href="https://www.linkedin.com/in/catarine-casagrandi-617227156/">LinkedIn</a>
+        </div>
+        <div id="link2" classe="link-label">
+          <img class="icone" src="../assets/img/github.png" alt=""><a class="link-a" href="https://github.com/catarinecsgr">GitHub</a>
+        </div>
+      </div>
+      <div class="frase">
+        <p id="frase-hwk">"Look up at the sky and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious." - Stephen Hawking</p>
+
+      </div>
+
+
+
+
+
+
     </div>
   </div>
 </div>
 
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<!--todo conteúdo fica acima do router-outlet-->
 <router-outlet></router-outlet>
+
